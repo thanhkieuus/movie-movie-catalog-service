@@ -7,7 +7,6 @@ public class CatalogItem {
 	private int rating;
 	
 	public CatalogItem(String name, String desc, int rating) {
-		super();
 		this.name = name;
 		this.desc = desc;
 		this.rating = rating;
@@ -36,7 +35,4 @@ public class CatalogItem {
 	public void setRating(int rating) {
 		this.rating = rating;
 	}
-	
-	
-
 }
